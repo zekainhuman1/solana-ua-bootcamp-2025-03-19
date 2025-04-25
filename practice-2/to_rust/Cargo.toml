@@ -1,0 +1,34 @@
+[package]
+name = "solana_bootcamp_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-sdk = "1.11"
+spl_associated_token_account = "1.0"
+spl_token = "3.0"
+mpl_token_metadata = "1.0"
+
+
+
+
+
+[[bin]]
+name = "send_sol"
+path = "src/bin/send_sol.rs"
+
+[[bin]]
+name = "create_token_mint"
+path = "src/bin/create_token_mint.rs"
+
+[[bin]]
+name = "create_token_account"
+path = "src/bin/create_token_account.rs"
+
+[[bin]]
+name = "mint_tokens"
+path = "src/bin/mint_tokens.rs"
+
+[[bin]]
+name = "create_token_metadata"
+path = "src/bin/create_token_metadata.rs"
